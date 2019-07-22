@@ -1,41 +1,65 @@
 
-<!DOCTYPE html>
-<html>
-<title>Google</title>
-<link rel="stylesheet" type="text/css" href="google-homepage-css3.css">
+<!DOCTYPE HTML>
+<html lang="en">
 
-<!-- Top bar -->
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Google Home Replica</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  </head>
+
 <body>
-<div id="topbar">
-<p align="right"><a href="https://mail.google.com" style="color:#7D7676;text-decoration: none">Gmail</a>&nbsp;&nbsp;<a href="https://images.google.com" style="color:#7D7676;text-decoration: none">Images</a>&nbsp;&nbsp;<img style="vertical-align:middle" src="http://i.imgur.com/xmMdSIp.png">&nbsp;</p>
-</div>
-<br>
   
-<!-- Google Logo, Search Bar, and Buttons -->
-<br><br>
-<div id="search">
-  <img id="logo" src="http://i.imgur.com/hs6n5hR.png" width="300" ><br>
-  
-  <form id="searchbar"><br>
-  <input type="text" size="75"><br>
-  </form><br>
-	<p align="right">
+  <div class="container">
+    <div class="top-header">
+      <a href="#">Gmail</a>
+      <a href="#">Images</a>
+      <a href="#"><span><img id="sq-icon" src="http://infactsolutions.net/img/menubtn.png"></span></a>
+    
+      <button id="sign-in">Sign in</button>
+    </div><!--end of div top header--><!--test comment for git-->
+    
+   
+    <div class="middleblock">
+      <img id="Glogo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+    
+      <form>
+        <input type="text" name="search">
+        <img id="Gvoice" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSN2HSVaKpn49eNFj-opHxfWqeCbboeTRY0ZDfRgFxSRvyvNX1V-dGmmw">
+      </form>
 
-    <button type="button" id="firstbutton">Google Search</button>
-    <button type="button" id="secondbutton">I'm Feeling Lucky</button>
+      <button class="sub-bttms" type="button">Google Search</button>
+  
+      <button class="sub-bttms" type ="button">I'm Feeling Lucky</button>
+    </div> <!--end of div middle block-->
+  </div><!--end of div container-->
+    
+    
+<div id="footer">
+  <div class="leftcolumn">
+    <ul>
+      <li><a href="#">Advertising</a></li>
+      <li><a href="#">Business</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+    
+        
   </div>
-
-<!-- Footer -->
-<div class="footer">
-	<p class="alignleft"><a href="https://www.google.com/intl/en/ads/" style="color:#666;text-decoration: none">&nbsp;&nbsp;Advertising</a>
-	&nbsp;&nbsp;&nbsp;
-	<p class="alignleft"><a href="https://www.google.com/services/" style="color:#666;text-decoration: none">Business</a>
-	&nbsp;&nbsp;&nbsp;
-	<p class="alignleft"><a href="https://www.google.com/intl/en/about/" style="color:#666;text-decoration: none">About</a></p>
-	<p class="alignright"><a href="https://www.google.com/intl/en/policies/privacy/" style="color:#666;text-decoration: none">Privacy</a>
-	&nbsp;&nbsp;
-	<a href="https://www.google.com/intl/en/policies/terms/" style="color:#666;text-decoration: none">Terms</a>
-	&nbsp;&nbsp;
-	<a href="https://www.google.com/preferences" style="color:#666;text-decoration: none">Settings&nbsp;&nbsp;</a></p>
-</div>
+  
+  <div class="rightcolumn">
+    <ul>
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Settings</a></li>
+    </ul>
+  
+  </div>
+  
+</div><!--end of div footer-->
+</body>
 </html>
